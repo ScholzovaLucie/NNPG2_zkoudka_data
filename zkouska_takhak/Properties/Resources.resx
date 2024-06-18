@@ -121,6 +121,66 @@
   <data name="IKONA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IKONA.BMP;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="KOMAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_01.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="komar_01_transp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\komar_01_transp.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_02.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_03.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_04.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_05.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_06.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_07.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_08.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_09.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_10.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_11.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_12.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_13.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_14.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_15.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_16.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMAR_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOMAR_17.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="komar_transp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\komar_transp.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Kostra_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kostra_1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

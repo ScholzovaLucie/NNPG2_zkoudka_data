@@ -61,6 +61,12 @@
     <Compile Include="ImageHelper.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MosquitoImagesInicializator.cs" />
+    <Compile Include="Objects\Mosquito.cs" />
+    <Compile Include="Objects\MovableInteractiveObject.cs" />
+    <Compile Include="Objects\MovableIntercativeAnimatedImageObject.cs" />
+    <Compile Include="Objects\MovableObject.cs" />
+    <Compile Include="Objects\Object.cs" />
     <Compile Include="Prahovani.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="vyhlazovani.cs">
       <SubType>Form</SubType>
     </Compile>
+    <EmbeddedResource Include="Animation.resx">
+      <DependentUpon>Animation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -151,6 +160,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Text_6_Svetly.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_06.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_07.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_08.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_09.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_10.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_11.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_12.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_13.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_14.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_15.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_16.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_17.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\komar_transp.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_01.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\komar_01_transp.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_02.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_03.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_04.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KOMAR_05.GIF" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
