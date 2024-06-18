@@ -13,8 +13,6 @@ namespace zkouska_takhak
 {
     public partial class Form1 : Form
     {
-     
-        private Timer timer;
 
         public Form1()
         {
@@ -24,11 +22,6 @@ namespace zkouska_takhak
             this.MouseDown += new MouseEventHandler(this.MainForm_MouseDown);
             this.MouseMove += new MouseEventHandler(this.MainForm_MouseMove);
             this.MouseUp += new MouseEventHandler(this.MainForm_MouseUp);
-
-            timer = new Timer();
-            timer.Interval = 1000; // 1 sekunda
-            timer.Tick += Timer_Tick;
-            timer.Start();
         }
 
         private void MainForm_Paint(object sender, PaintEventArgs e)
