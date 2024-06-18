@@ -37,6 +37,8 @@ namespace zkouska_takhak
             DrawBezierCurve(g);
             DrawBezierCurve(g, new Point(10,200), new Point(250, 150), new Point(400, 400), new Point(400, 10));
             MakeTransparent_Example2(e);
+            Rotace(g);
+            DrawSlunce(g);
         }
 
         private void MainForm_MouseDown(object sender, MouseEventArgs e)
@@ -103,10 +105,80 @@ namespace zkouska_takhak
                 myBitmap, myBitmap.Width, 0, myBitmap.Width, myBitmap.Height);
         }
 
-        
+
+        private void Rotace(Graphics g)
+        {
+            int size = 300;
+            int mezera = 5;
+            Bitmap bit = new Bitmap(size, size);
+            using (Graphics g2 = Graphics.FromImage(bit))
+            {
+                Pen pen;
+                int x = mezera;
+
+                for (int y = 0; y < (size / mezera); y++)
+                {
+                    if (y % 2 == 0)
+                    {
+                        pen = new Pen(Color.Aqua);
+                    }
+                    else
+                    {
+                        pen = new Pen(Color.BlueViolet);
+                    }
+
+                    Point start = new Point(x, 0);
+                    Point end = new Point(x, size);
+                    g2.DrawLine(pen, start, end);
+                    x = x + mezera;
+                }
+            }
+
+            TextureBrush textB = new TextureBrush(bit);
+
+            textB.RotateTransform(20);
+            g.FillRectangle(textB, 600, 200, 100, 100);
+            g.DrawRectangle(new Pen(Color.Red), 600, 200, 100, 100);
+        }
 
 
-       
+        private void DrawSlunce(Graphics g)
+        {
+
+            int polomer = 100;
+            int prumer = polomer * 2;
+            Point center = new Point(400, 300);
+            g.DrawEllipse(new Pen(Color.Red), center.X - polomer, center.Y - polomer, prumer, prumer);
+
+            g.DrawEllipse(new Pen(Color.Red), center.X - 2, center.Y - 2, 5, 5);
+
+            float angle = 360f / 12;
+
+            for (int i = 0; i < 12; i++)
+            {
+                g.Save();
+                g.TranslateTransform(center.X, center.Y);
+                g.RotateTransform(i * angle);
+                Rectangle rec = new Rectangle(0, 10, 10, 2);
+                g.FillRectangle(new SolidBrush(Color.Black), -5, -polomer, 5, 20);
+                g.ResetTransform();
+            }
+
+            angle = 360f / 60;
+
+            for (int i = 0; i < 60; i++)
+            {
+                g.Save();
+                g.TranslateTransform(center.X, center.Y);
+                g.RotateTransform(i * angle);
+                Rectangle rec = new Rectangle(0, 10, 10, 2);
+                g.FillRectangle(new SolidBrush(Color.Black), -5, -polomer, 2, 10);
+                g.ResetTransform();
+            }
+
+        }
+
+
 
     }
 }

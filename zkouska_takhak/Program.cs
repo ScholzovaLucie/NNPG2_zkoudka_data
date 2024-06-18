@@ -16,7 +16,7 @@ namespace zkouska_takhak
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Prahovani());
+            Application.Run(new Form1());
         }
     }
 }
