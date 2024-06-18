@@ -52,7 +52,7 @@ namespace zkouska_takhak
 
         private void LoadImage(string path)
         {
-            originalImage = new Bitmap(path);
+            originalImage = new Bitmap(Properties.Resources.Text_6_Tmavy);
             processedImage = (Bitmap)originalImage.Clone();
         }
 

@@ -27,7 +27,6 @@ namespace zkouska_takhak
 
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
 
@@ -190,12 +189,12 @@ namespace zkouska_takhak
 
             e.Graphics.DrawImage(sunImage, new Rectangle(-sunSize / 2, -sunSize / 2, sunSize, sunSize));
 
-
             // Draw hour hand
             DrawHand(g, now.Hour % 12 * 30 + now.Minute / 2, radius * 0.5f, Math.Max(3, radius / 20), true);
 
-            // Draw minute hand
-            DrawHand(g, now.Minute * 6, radius * 0.8f, Math.Max(3, radius / 12), true);
+            // Draw minute hand with fractional seconds
+            double minuteAngle = now.Minute * 6 + now.Second * 0.1;
+            DrawHand(g, minuteAngle, radius * 0.8f, Math.Max(3, radius / 12), true);
 
             // Draw second hand
             DrawHand(g, now.Second * 6, radius * 0.9f, Math.Max(1, radius / 100), false, Color.Red);

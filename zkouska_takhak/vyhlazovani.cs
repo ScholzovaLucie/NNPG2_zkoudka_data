@@ -41,7 +41,7 @@ namespace zkouska_takhak
 
         private void LoadImage(string path)
         {
-            originalImage = new Bitmap(path);
+            originalImage = new Bitmap(Properties.Resources.IKONA);
             processedImage = (Bitmap)originalImage.Clone();
         }
 

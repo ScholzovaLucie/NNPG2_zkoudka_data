@@ -9,13 +9,13 @@ using System.Windows.Forms;
 
 namespace zkouska_takhak
 {
-    public class MainForm : Form
+    public class Animation : Form
     {
         private Timer timer;
         private List<AnimObj> animObjs;
         private Random rand;
 
-        public MainForm()
+        public Animation()
         {
             this.DoubleBuffered = true;
             this.Paint += new PaintEventHandler(this.MainForm_Paint);

@@ -35,6 +35,8 @@ namespace zkouska_takhak
         {
             Graphics g = e.Graphics;
             DrawBezierCurve(g);
+            DrawBezierCurve(g, new Point(10,200), new Point(250, 150), new Point(400, 400), new Point(400, 10));
+            MakeTransparent_Example2(e);
         }
 
         private void MainForm_MouseDown(object sender, MouseEventArgs e)
@@ -84,7 +86,7 @@ namespace zkouska_takhak
         {
 
             // Create a Bitmap object from an image file.
-            Bitmap myBitmap = new Bitmap("Grapes.gif");
+            Bitmap myBitmap = new Bitmap(Properties.Resources.SLUNCE);
 
             // Draw myBitmap to the screen.
             e.Graphics.DrawImage(
